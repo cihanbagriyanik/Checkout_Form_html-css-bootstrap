@@ -9,29 +9,21 @@
 
 }
 
-
 .price {
-    /* border: 5px solid black; */
     background-color: rgb(238, 238, 238);
-    box-shadow: 5px 5px 10px 5px black;
     height: max-content;
-    /* max-width: 25rem; */
 
     width: 400px;
     min-width: 350px;
     max-width: 400px;
 
+   
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-
 }
-
-
-
-
-
 
 .btn {
     background-color: var(--orange);
@@ -65,8 +57,6 @@
 
 }
 
-
-
 .totalBox {
     /* border: 2px solid var(--orange); */
     display: flex;
@@ -74,10 +64,6 @@
     flex-direction: column;
     justify-content: end;
     margin-top: 3rem;
-
-
-
-
 
 }
 
@@ -114,11 +100,6 @@
  
 }
 
-/* .xxx{
-    display: flex;
-    justify-self:left;
-} */
-
 span {
     font-size: 85%;
     color: var(--orange);
@@ -137,9 +118,14 @@ select {
     padding: 0.37rem;
 
     width: 80%;
-    text-align: center;
+    text-align: left;
     color: gray;
+    margin-left: 0.3rem;
 
+}
+
+.form-check-input:checked{
+    background-color: var(--orange) !important;
 }
 
 button:active {
@@ -169,20 +155,21 @@ img {
     background-color:crimson;
     border-radius: 5px;
     padding: 0 1.6rem;
-    margin-top: 0.6rem;
     font-size: 0.8rem;
+
 }
 
 .remove:hover{
     color: crimson;
     background-color:grey;
+
 }
 
 .remove:active{
     color: whitesmoke;
     background-color:crimson !important;
-}
 
+}
 
 @media screen and (max-width:767px) {
     .left {
@@ -209,5 +196,13 @@ img {
 
     }
 
+}
+
+@media screen and (max-width:991px) {
+
+    select {
+        width: 85%;
+    
+    }
 
 }
